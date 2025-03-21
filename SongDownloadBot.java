@@ -61,12 +61,12 @@ public class SongDownloadBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return System.getenv("TELEGRAM_BOT_USERNAME");
+        return System.getenv("@ppdownload_bot");
     }
 
     @Override
     public String getBotToken() {
-        return System.getenv("TELEGRAM_BOT_TOKEN");
+        return System.getenv("7826409609:AAG9AC_lzC8RGG4_hSKhJzshBEI5I1WWS38");
     }
 
     public static void main(String[] args) {
