@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: telegram-song-bot
+    runtime: docker
+    repo: https://github.com/CYBER-DEXTER-LITE/telegram-song-bot
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+    plan: free
