@@ -1,3 +1,3 @@
 #!/bin/bash
-export TELEGRAM_BOT_TOKEN="your_bot_token_here"
+export TELEGRAM_BOT_TOKEN="7826409609:AAG9AC_lzC8RGG4_hSKhJzshBEI5I1WWS38"
 java SongDownloadBot
